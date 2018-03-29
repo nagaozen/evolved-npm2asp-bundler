@@ -19,9 +19,11 @@ project make it a breeze to exports those packages and make it available to ASP.
 
 ## How to use it?
 
-With node.js already installed, it's very straight forward. Just run:
+With git and node.js already installed, it's very straight forward. Just run:
 
 ```sh
+$ git clone https://github.com/nagaozen/evolved-npm2asp-bundler.git
+$ cd evolved-npm2asp-bundler
 $ npm start
 ```
 
