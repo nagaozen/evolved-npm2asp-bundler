@@ -14,6 +14,8 @@ MarkdownIt: require("markdown-it")({
   .use( require("markdown-it-sup") )
   .use( require("markdown-it-table-of-contents"), { includeLevel: [1,2,3] } ),
 
-moment: require("moment")
+moment: require("moment"),
+
+accounting: require("accounting-js")
 
 };
