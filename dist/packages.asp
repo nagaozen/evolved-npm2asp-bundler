@@ -17,19 +17,19 @@ function load_text_file(filespec) {
 	return txt;
 }
 
-// Defining `packages_document` as a global object is required to avoid too early GC.
-packages_document = new ActiveXObject("HTMLFile");
-with(packages_document) {
+// Defining `__packages_document__` as a global object is required to avoid too early GC.
+__packages_document__ = new ActiveXObject("HTMLFile");
+with(__packages_document__) {
 	write('<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />');
 	write('<'+'script charset="utf-8">');
 	write( load_text_file( Server.mapPath("/lib/packages.js") ) );
 	write('</'+'script>');
 }
-packages_document.close();
+__packages_document__.close();
 
-var window = packages_document.parentWindow;
+var window = __packages_document__.parentWindow;
 window.addEventListener("beforeunload", function(){
-	packages_document = null;
+	__packages_document__ = null;
 	CollectGarbage();
 });
 
