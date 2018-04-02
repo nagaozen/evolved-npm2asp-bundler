@@ -24,6 +24,7 @@ With git and node.js already installed, it's very straight forward. Just run:
 ```sh
 $ git clone https://github.com/nagaozen/evolved-npm2asp-bundler.git
 $ cd evolved-npm2asp-bundler
+$ npm install
 $ npm start
 ```
 
