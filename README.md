@@ -1,5 +1,7 @@
 # Evolved NPM to ASP packages bundler
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## What is it?
 
 It's a package bundler made by nagaozen that makes possible for you to leverage
@@ -61,3 +63,7 @@ $ npm run build
 This will update the files under `./dist/` folder. Now, copy'em to your
 `domain.com/lib/` folder and use the ASP Server-Side Include directive to make
 the libraries available to the server environment.
+
+## Contributing
+
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
