@@ -22,7 +22,6 @@ With git and node.js already installed, it's very straight forward. Just run:
 $ git clone https://github.com/nagaozen/evolved-npm2asp-bundler.git
 $ cd evolved-npm2asp-bundler
 $ npm install
-$ npm start
 ```
 
 This will ensure your environment get automaticaly configured. When it concludes, you should use `npm i -D <package>` as you normally do for your frontend development. _e.g._:
